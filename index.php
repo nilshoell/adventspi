@@ -25,24 +25,31 @@ if (isset($_GET['advent']) && is_numeric($_GET['advent'])) {
 ?>
 
 <body class="" id="page-top">
-    <div class="container-fluid">
+    <div class="container">
+
+        <h1>Adventskranz Siegle</h1>
+
         <div class="row">
-            <div class="col mt-2">
-                <a href="#?advent=1" role="button" class="btn btn-secondary btn-lg">1. Advent</a>
+            <div class="col-md-4 mt-2">
+                <a href="?advent=1" role="button" class="btn btn-secondary btn-block">1. Advent</a>
             </div>
-            <div class="col mt-2">
-                <a href="#?advent=2" role="button" class="btn btn-secondary btn-lg">2. Advent</a>
+            <div class="col-md-4 mt-2">
+                <a href="?advent=2" role="button" class="btn btn-secondary btn-block">2. Advent</a>
             </div>
         </div>
         <div class="row">
-            <div class="col mt-2">
-                <a href="#?advent=3" role="button" class="btn btn-secondary btn-lg">3. Advent</a>
+            <div class="col-md-4 mt-2">
+                <a href="?advent=3" role="button" class="btn btn-secondary btn-block">3. Advent</a>
             </div>
-            <div class="col mt-2">
-                <a href="#?advent=4" role="button" class="btn btn-secondary btn-lg">4. Advent</a>
+            <div class="col-md-4 mt-2">
+                <a href="?advent=4" role="button" class="btn btn-secondary btn-block">4. Advent</a>
             </div>
         </div>
-        <div class="row mt-3"><a href="#?advent=0" role="button" class="btn btn-danger">Ausschalten</a></div>
+        <div class="row mt-3">
+            <div class="col-md-8 col-sm-12 mt-2 text-center">
+                <a href="?advent=0" role="button" class="btn btn-danger">Ausschalten</a>
+            </div>
+        </div>
     </div>
 </body>
 
